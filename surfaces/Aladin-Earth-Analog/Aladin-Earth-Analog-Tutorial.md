@@ -48,7 +48,7 @@ TBA
 3. Double click on "Blue Marble Next Generation w/ Topography and Bathymetry"
 4. Zoom out with mouse wheel
 
-![1](https://raw.githubusercontent.com/epn-vespa/tutorials/master/Aladin-Earth-Analog/img/1_Aladin_Earth_Analog_small.png)
+![1](https://github.com/epn-vespa/tutorials/blob/master/surfaces/Aladin-Earth-Analog/img/1_Aladin_Earth_Analog_small.png)
 
 ### Second step - send ADQL query to EPN1
 1. In the available data panel, unfold "Others" > "Table (by TAP)" > jacobsuni
