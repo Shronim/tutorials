@@ -47,7 +47,7 @@ Use of Aladin 8 beta version (link on that page) is required - should now also w
 
 ### Image retrieval
 Retrieve image of planetary map, for example from [here](http://laps.noaa.gov/albers/sos/) 
-or [here](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/).
+or here [ftp://pdsimage2.wr.usgs.gov/pub/pigpen/](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/).
 
 As example, work with Io on 
 [ftp://pdsimage2.wr.usgs.gov/pub/pigpen/io/io_global_images.zip](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/io/io_global_images.zip)
@@ -74,7 +74,7 @@ Apply grid, pan around, zoom in/out ...
     > Beware that  longitudes are handled as Righ Ascensions (inverted)
 
 ### Adding catalogue:
-Planetary nomenclature downloaded from [USGS](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip)
+Planetary nomenclature downloaded from USGS [ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip)
 
 Extract nomenclature_all_feb2004.dbf
 convert to csv with http://dbfconv.com/ (also GDAL could do)
