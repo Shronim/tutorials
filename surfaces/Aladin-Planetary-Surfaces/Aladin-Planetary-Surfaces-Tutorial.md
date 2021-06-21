@@ -74,8 +74,7 @@ Apply grid, pan around, zoom in/out ...
     > Beware that  longitudes are handled as Righ Ascensions (inverted)
 
 ### Adding catalogue:
-Planetary nomenclature downloaded from [USGS](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip)
-[USGS](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip)
+Planetary nomenclature downloaded from USGS [ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip)
 
 Extract nomenclature_all_feb2004.dbf
 convert to csv with http://dbfconv.com/ (also GDAL could do)
