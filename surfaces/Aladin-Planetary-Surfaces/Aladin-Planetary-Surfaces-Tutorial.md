@@ -68,9 +68,9 @@ Central pixel 1440.0 720.0, with pix ang size 7.5' and projection CARTESIAN
 
 ### Convert to HiPS :
 on menu:
-Tool > Convert current image to a HiPS
+Tool > Generate a HiPS based on... > current image
 Apply grid, pan around, zoom in/out ...
-    > Type Comm-G to overplot coordinate grid
+    > Type Commmand+G (or bottom left icon) to overplot coordinate grid
     > Beware that  longitudes are handled as Righ Ascensions (inverted)
 
 ### Adding catalogue:
@@ -85,17 +85,17 @@ Little cleanup of csv file, and load it in TOPCAT.
 
 * Filter Io features only by creating subset (io, expression SA=="io")
 -> 221 lines out of 8395 in io subset
-    > Click on red/violet icon, add a filter
+    > Click on red/violet icon, add a filter (Plus icon). (name: io, expression: SA =="io")
     & "plot subset" io in main window
 
-Choose io Row subset in main TOPCAT window and broadcast to Aladin via SAMP
+Choose "io" in "Row subset" in main TOPCAT window and broadcast to Aladin via SAMP (Interop > Send table to... > Aladin)
 
 * Right-click catalogue plane in Aladin, Column Information
 Click on Coord for LATITUDE and LONG360, pretending they are DEC and RA, respectively.
 
 * Create dedicated filter :
 In advanced mode, use the following expression :
-    > this is Catalogue menu item / create new filter / advanced mode
+    > this is Catalogue > create new filter > advanced mode
     
 ```
 {
