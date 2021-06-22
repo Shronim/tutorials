@@ -72,6 +72,7 @@ Tool > Generate a HiPS based on... > current image
 Apply grid, pan around, zoom in/out ...
     > Type Commmand+G (or bottom left icon) to overplot coordinate grid
     > Beware that  longitudes are handled as Righ Ascensions (inverted)
+    > Projection is normally set to Spherical, but you could try other as well.
 
 ### Adding catalogue:
 Planetary nomenclature downloaded from USGS [ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip](ftp://pdsimage2.wr.usgs.gov/pub/pigpen/nomenclature/nomenclature_all_feb2004.zip)
@@ -79,8 +80,9 @@ Planetary nomenclature downloaded from USGS [ftp://pdsimage2.wr.usgs.gov/pub/pig
 Extract nomenclature_all_feb2004.dbf
 convert to csv with http://dbfconv.com/ (also GDAL could do)
 
-Little cleanup of csv file, and load it in TOPCAT.
+Little cleanup of csv file,
     > Remove EOL character <NULL> in TextMate or another handy editor
+    > and load it in TOPCAT.
 
 
 * Filter Io features only by creating subset (io, expression SA=="io")
@@ -91,11 +93,11 @@ Little cleanup of csv file, and load it in TOPCAT.
 Choose "io" in "Row subset" in main TOPCAT window and broadcast to Aladin via SAMP (Interop > Send table to... > Aladin)
 
 * Right-click catalogue plane in Aladin, Column Information
-Click on Coord for LATITUDE and LONG360, pretending they are DEC and RA, respectively.
+Click on Coo column for LATITUDE (col 16) and LONG360 (col 18), set them to DEC and RA (if not done by default), respectively.
 
 * Create dedicated filter :
 In advanced mode, use the following expression :
-    > this is Catalogue > create new filter > advanced mode
+    that is "Catalog > create new filter > advanced mode" and copy/paste the following
     
 ```
 {
@@ -105,7 +107,7 @@ draw ${NAME} rainbow(${AD},1979,2003)
 }
 ```
 
-Displays names and sizes of surface features, color-coded by year of discovery.
+After clicking "Apply", displays names and sizes of surface features, color-coded by year of discovery.
 
 * Remaining issues :
 Defaut orientation of RA or longitudes in Aladin is different
