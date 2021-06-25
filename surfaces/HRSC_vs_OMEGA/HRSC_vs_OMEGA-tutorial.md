@@ -54,7 +54,7 @@ A very basic 2D search can be performed on the VESPA portal using a bounding box
 ``` 
 orbit_number ≥ 997
 orbit_number ≤ 998
-access_format LIKE '%application/octet-stream%'
+access_format LIKE %application/octet-stream%
 ```
 
 * There are 4 results: image cubes acquired on MEx orbits 997 and 998 (with no duplication due to various formats)
