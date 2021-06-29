@@ -36,8 +36,8 @@ intense atmospheric auroral emissions (Figure 1). Aurora are specifically
 are resulting from the collisions between charged energetic particles - mainly
 electrons - accelerated in the magnetosphere and guided along magnetic field 
 lines down to the magnetic poles, and the neutral upper atmosphere. In the case
-of giant planets, the upper atmosphere est mostly composed of atomic and 
-molecular Hydrogen, which electronic transitions are covering the whole UV 
+of giant planets, the upper atmosphere is mostly composed of atomic and 
+molecular Hydrogen, whose electronic transitions are covering the whole UV 
 spectral range (H2 spectral bands). In the case of moons, the exosphere is 
 producing Oxygen emissions (OI multiplets at 1304 and 1356 A). The aurorae are
 thus remote proxies of active regions and dynamics of the magnetosphere, of 
@@ -69,7 +69,7 @@ done, it is also possible to directly work online with the data available in
 [FITS](http://fits.gsfc.nasa.gov) format, thanks to VO (Virtual Observatory) 
 tools, as shown in [Part 2](part2).
 
-The goal of this tutoriel is to get familiar with the APIS features.
+The goal of this tutorial is to get familiar with the APIS features.
 
 <h2 id="tutorial">Tutorial</h2>
 
@@ -103,7 +103,7 @@ wind.*
 
 #### Secondary Query Parameters
 
-Specific query parameters (instrumental of physical) providing advanced search 
+Specific query parameters (instrumental or physical) providing advanced search 
 capabilities are available by clicking on `Advanced research` (bottom-right of
 the search interface, see Figure 2). When the secondary search interface is 
 visible and a query has been issued, the corresponding range of integration time   
@@ -123,7 +123,7 @@ developed by the [CDPP](http://cdpp.eu) (Centre de Données de Physique des Plas
 
 The search results are showing several columns, corresponding to different 
 processing levels, each available with various file format. FITS files are 
-aimed at experienced used willing to perform his own data analysis, while 
+aimed at experienced user willing to perform his own data analysis, while 
 graphical formats (PDF and JPEG) are directly usable (e.g., for communications).
 
 Three processing levels are available for images:
